@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Welcome from "./welcome";
-import Shop from "./Product";
+import Shop from "./Book";
 import Garage from "./Car";
 import ClassRoom from "./Student";
 
@@ -11,9 +11,9 @@ function App() {
       <header className="App-header">
         {/* <Welcome name="Virat" />
         <Welcome name="Rohith" /> */}
-        {/* <Shop /> */}
+        <Shop />
         {/* <Garage brand="Audi" color="Red" /> */}
-        <ClassRoom />
+        {/* <ClassRoom /> */}
       </header>
     </div>
   );
