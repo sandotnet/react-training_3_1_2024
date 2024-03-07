@@ -5,6 +5,12 @@ export default function Car() {
   const [model, setModel] = useState("Mustang");
   const [year, setYear] = useState(2000);
   const [color, setColor] = useState("red");
+  // const [{ brand, model, year, color }, setCar] = useState({
+  //   brand: "Ford",
+  //   model: "Mustang",
+  //   year: "1998",
+  //   color: "balck",
+  // });
   const updateCar = () => {
     //update the state
     setBrand("Hundai");

@@ -4,6 +4,9 @@ import FavoriteColor from "./FavoriteColor";
 import Counter from "./Counter";
 import Car from "./Car";
 import Product from "./Product";
+import Country from "./Country";
+import Student from "./Student";
+import SignUp from "./SignUp";
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
       {/* <FavoriteColor /> */}
       {/* <Counter /> */}
       {/* <Car /> */}
-      <Product />
+      {/* <Product /> */}
+      {/* <Country /> */}
+      {/* <Student /> */}
+      <SignUp />
     </div>
   );
 }
